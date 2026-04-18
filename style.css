@@ -1,0 +1,81 @@
+body {
+    background-color: #E6F3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.stitch-card {
+    background: #004d99;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    width: 350px;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    border: 5px solid #0099ff;
+}
+
+.header {
+    background: #003366;
+    padding: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+}
+
+.header h2 {
+    margin: 0;
+    color: #4dd2ff;
+}
+
+.content {
+    padding: 20px;
+    background-color: #004d99;
+}
+
+.content h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #e6f3ff;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.price-box {
+    background: #0099ff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.price-box .label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    color: #003366;
+    margin-bottom: 5px;
+}
+
+.price-box .value {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.footer {
+    background: #002244;
+    padding: 15px;
+    font-size: 14px;
+    color: #4dd2ff;
+    font-weight: bold;
+}
